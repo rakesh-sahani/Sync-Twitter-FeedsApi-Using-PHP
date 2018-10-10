@@ -1,4 +1,4 @@
-# HighOnM
+
 # Using j7mbo Library
 twitter-api-php
 ===============
@@ -88,7 +88,7 @@ GET Request Example
 Set the GET field BEFORE calling buildOauth(); and everything else is the same:
 
 ```php
-$url = 'https://api.twitter.com/1.1/followers/ids.json';
+$url = 'https://api.twitter.com/1.1/statuses/user_timeline.json';
 $getfield = '?screen_name=J7mbo';
 $requestMethod = 'GET';
 
